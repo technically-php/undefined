@@ -26,5 +26,8 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
+    },
+    "archive": {
+        "exclude": ["logo.png", "/tests", ".github/", "phpunit.xml"]
     }
 }
