@@ -1,5 +1,7 @@
 # Technically\Undefined
 
+[![Test](https://github.com/technically-php/undefined/actions/workflows/test.yml/badge.svg)](https://github.com/technically-php/undefined/actions/workflows/test.yml)
+
 Technically\Undefined is a clever way of emulating `undefined` values in PHP8.
 Thanks to enums and union types we can finally have `undefined` in PHP.
 
