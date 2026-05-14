@@ -1,3 +1,5 @@
+<img src="./logo.png" alt="Project logo: image showing an empty circle with dashed border with the text next to it: Technically Undefined">
+
 # Technically\Undefined
 
 [![Test](https://github.com/technically-php/undefined/actions/workflows/test.yml/badge.svg)](https://github.com/technically-php/undefined/actions/workflows/test.yml)
