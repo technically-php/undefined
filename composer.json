@@ -2,18 +2,29 @@
     "name": "technically/undefined",
     "description": "A clever way of having `undefined` type in PHP",
     "type": "library",
-    "require": {
-        "php": "^8.1"
-    },
-    "license": "MIT",
-    "autoload": {
-        "classmap": ["src/Undefined.php"]
-    },
     "authors": [
         {
             "name": "Ivan Voskoboinyk",
             "email": "ivan@voskoboinyk.com"
         }
     ],
-    "minimum-stability": "stable"
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^4.7"
+    },
+    "autoload": {
+        "classmap": ["src/Undefined.php"]
+    },
+    "scripts": {
+        "test": "pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
